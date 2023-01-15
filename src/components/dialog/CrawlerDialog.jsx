@@ -70,7 +70,7 @@ export default function CrawlerDialog() {
         <DialogTitle id="scroll-dialog-title">Posts from DevGo</DialogTitle>
         <DialogContent dividers={scroll === 'paper'}>
 
-          {linksScraped.map((item)=><ContentCrawled data={item} onSave={()=>saveLink(item.title,item.link)} />)}
+          {linksScraped?.map((item)=><ContentCrawled data={item} onSave={()=>saveLink(item.title,item.link)} />)}
     
         </DialogContent>
         
