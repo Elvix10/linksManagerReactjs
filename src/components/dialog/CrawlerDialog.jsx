@@ -1,15 +1,15 @@
 import * as React from "react";
 import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
-import DialogActions from "@mui/material/DialogActions";
+
 import DialogContent from "@mui/material/DialogContent";
-import DialogContentText from "@mui/material/DialogContentText";
+
 import DialogTitle from "@mui/material/DialogTitle";
 import { useSelector, useDispatch } from "react-redux";
 import { getMyLinks, getMyLinksScrapped } from "../../store/slice/link";
 import ContentCrawled from "../cards/ContentCrawled";
 import { axiosInstance } from "../../utils/axios";
-import Swal from "sweetalert2";
+
 
 export default function CrawlerDialog() {
   const [open, setOpen] = React.useState(false);

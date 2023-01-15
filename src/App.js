@@ -1,6 +1,5 @@
 import "./App.css";
 
-import Button from "@mui/material/Button";
 import Header from "./components/Header";
 import SideBar from "./components/SideBar";
 import MainContent from "./components/MainContent";

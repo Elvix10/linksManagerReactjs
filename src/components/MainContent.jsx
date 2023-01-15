@@ -1,12 +1,11 @@
 import { Grid, Typography } from "@mui/material";
-import React, { useEffect, useState } from "react";
-import { axiosInstance } from "../utils/axios";
+import React, { useEffect } from "react";
 import LinkCard from "./cards/LinkCard";
 import { useSelector, useDispatch } from "react-redux";
 import { getMyLinks } from "../store/slice/link";
 
 function MainContent() {
-  //const [links, setLinks] = useState([]);
+  
   const { links } = useSelector((state) => state.link);
 
 

@@ -1,6 +1,4 @@
 import React from "react";
-import { Grid, Typography } from "@mui/material";
-import Link from "@mui/material/Link";
 import Button from "@mui/material/Button";
 import { Stack } from "@mui/system";
 import FormDialog from "./dialog/FormDialog";
@@ -18,9 +16,7 @@ function SideBar() {
   };
   const [open2, setOpen2] = React.useState(false);
 
-  const handleClickOpen2 = () => {
-    setOpen2(true);
-  };
+
 
   const handleClose2 = () => {
     setOpen2(false);
