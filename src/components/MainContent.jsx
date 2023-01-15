@@ -15,7 +15,7 @@ function MainContent() {
 
   useEffect(() => {
     dispatch(getMyLinks());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="MainContent">
